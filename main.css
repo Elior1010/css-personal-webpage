@@ -1,0 +1,37 @@
+/* Body properties: Customize the background and text colors as you wish */
+body {
+  background-color: #f0f0f0; /* Light grey background */
+  color: #333; /* Dark grey text */
+}
+
+/* Nav properties: Defines the style for navigation */
+nav {
+  height: 6000px;
+  width: 200px;
+  float: left;
+  padding: 5px;
+  line-height: 30px;
+  background-color: #e3e3e3; /* Optional: Adds a background color to the nav */
+}
+
+/* Footer properties: Centers the text inside the footer and sets its margin */
+footer {
+  text-align: center;
+  margin-right: 200px;
+  padding: 20px 0; /* Optional: Adds top and bottom padding */
+  background-color: #d9d9d9; /* Optional: Adds a background color to the footer */
+}
+
+/* #memeImage properties: Adjusts the margin for an image with ID 'memeImage' */
+#memeImage {
+  margin-right: 200px;
+  display: block; /* Optional: Ensures the image is a block element to respect margin */
+  max-width: 100%; /* Optional: Ensures the image is responsive */
+}
+
+/* Header properties: Centers the text inside the header */
+header {
+  text-align: center;
+  padding: 20px 0; /* Optional: Adds top and bottom padding */
+  background-color: #c2c2c2; /* Optional: Adds a background color to the header */
+}
